@@ -23,7 +23,6 @@ function Home(){
             pt={"16%"}
             >
                 <Text 
-                textTransform={"capitalize"}
                 fontFamily={"Milker"}
                 fontSize={"4.5rem"}
                 fontWeight={400}
@@ -32,7 +31,6 @@ function Home(){
                     Aero Fabrication Club
                 </Text>
                 <Text 
-                textTransform={"capitalize"}
                 fontFamily={"Milker"}
                 fontSize={"1.5rem"}
                 fontWeight={400}
