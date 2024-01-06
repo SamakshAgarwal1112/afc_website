@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Box, Image } from '@chakra-ui/react';
+import { Flex, Text, Box } from '@chakra-ui/react';
 import  Landing  from './../../assets/landing.png';
 
 function Home(){
