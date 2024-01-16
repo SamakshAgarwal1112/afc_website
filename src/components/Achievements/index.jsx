@@ -22,9 +22,9 @@ const achievement = [
 function Achievement({image,description}){
     return(
         <Stack 
-            w={"75%"} 
+            w={{base:"75%",md:"32%"}}
             align={"center"} 
-            p={"0.75rem"} 
+            p={{base:"0.25rem",md:"0.75rem"}}
             border={"4px solid #FBF4EF"} 
             aspectRatio={7/8} 
             bg={"#080C1E"} 
@@ -34,10 +34,11 @@ function Achievement({image,description}){
                 src={image} 
                 w={"auto"} 
                 aspectRatio={16/9}
+                objectFit={"cover"}
                 />
                 <Text
                 fontFamily={"Poppins"}
-                fontSize={"1.25rem"}
+                fontSize={{base:"0.75rem",xs:"1.25rem",sm:"1.75rem",md:"1rem",xl:"1.25rem"}}
                 fontWeight={400}
                 color={"#fff"}
                 >
@@ -50,14 +51,15 @@ function Achievement({image,description}){
 function Achievements(){
     return(
         <Flex
-        py={"4rem"}
+        id='achievements'
+        py={{base:"2rem",sm:"4rem"}}
         bg={"#131313"}
         direction={"column"}
         align={"center"}
         >
             <Text
                 fontFamily={"Milker"}
-                fontSize={"4.5rem"}
+                fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
                 color={"#fff"}
             >
@@ -65,21 +67,18 @@ function Achievements(){
             </Text>
             <Flex
             w={"80%"}
-            justify={"space-between"}
-            mt={"10rem"}
+            justify={{base:"center",md:"space-between"}}
+            mt={"2rem"}
+            wrap={"wrap"}
+            gap={{base:"2rem",md:"0rem"}}
             >
-            <Flex>
-                <Achievement image={achievement[0].image} description={achievement[0].description}/>
-            </Flex>
-            
-            <Flex mt={"-8rem"}>
-                <Achievement image={achievement[1].image} description={achievement[1].description}/>
-            </Flex>
-
-            <Flex>
-                <Achievement image={achievement[2].image} description={achievement[2].description}/>
-            </Flex>
-
+                {achievement.map((item,index)=>(
+                    <Achievement
+                    key={index}
+                    image={item.image}
+                    description={item.description}
+                    />
+                ))}
             </Flex>
         </Flex>
     )
