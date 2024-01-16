@@ -5,7 +5,7 @@ import { Box, AspectRatio } from '@chakra-ui/react';
 function Video(){
     return(
         <Box
-        py={"4rem"}
+        py={{base:"2rem",md:"4rem"}}
         bg={"#131313"}
         >
             <AspectRatio 
