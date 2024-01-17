@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex, Text, Box, Image, Stack } from '@chakra-ui/react';
-import instaQR from '../../assets/instaQR.png';
+import instaQR from '../../assets/instaQR.jpg';
 
 function Contact(){
     return(

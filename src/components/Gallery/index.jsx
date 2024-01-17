@@ -1,9 +1,9 @@
 import React from "react";
 import { Flex, Text, Box, Image, Grid, GridItem,  Modal, ModalOverlay, ModalContent, useDisclosure, ModalCloseButton } from "@chakra-ui/react";
 // import Gallery1 from "./../../assets/gallery1.png";
-import Gallery2 from "./../../assets/gallery2.png";
-import Gallery3 from "./../../assets/gallery3.png";
-import Gallery4 from "./../../assets/gallery4.png";
+import Gallery2 from "./../../assets/gallery2.jpg";
+import Gallery3 from "./../../assets/gallery3.jpg";
+import Gallery4 from "./../../assets/gallery4.jpg";
 
 function Gallery(){
     const { isOpen, onOpen, onClose } = useDisclosure();
