@@ -1,14 +1,14 @@
 import React from 'react'
 import { Flex, Text, Box, Stack,Image, Grid, GridItem } from '@chakra-ui/react';
-import project1 from './../../assets/Project1.jpg';
-import project2 from './../../assets/Project2.jpg';
-import project3 from './../../assets/Project3.jpg';
-import ongoingProject1 from './../../assets/ongoingProject1.jpg';
-import ongoingProject2 from './../../assets/ongoingProject2.jpg';
-import futureProject1 from './../../assets/futureProject1.jpg';
-import futureProject2 from './../../assets/futureProject2.jpg';
-import futureProject3 from './../../assets/futureProject3.jpg';
-import futureProject4 from './../../assets/futureProject4.jpg';
+import project1 from '/assets/Project1.jpg';
+import project2 from '/assets/Project2.jpg';
+import project3 from '/assets/Project3.jpg';
+import ongoingProject1 from '/assets/ongoingProject1.jpg';
+import ongoingProject2 from '/assets/ongoingProject2.jpg';
+import futureProject1 from '/assets/futureProject1.jpg';
+import futureProject2 from '/assets/futureProject2.jpg';
+import futureProject3 from '/assets/futureProject3.jpg';
+import futureProject4 from '/assets/futureProject4.jpg';
 
 const projects = [
     {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Flex, Text, Box, Image, Link } from '@chakra-ui/react';
-import sponsor1 from './../../assets/Sponsor1.png';
-import sponsor2 from './../../assets/Sponsor2.png';
+import sponsor1 from '/assets/Sponsor1.png';
+import sponsor2 from '/assets/Sponsor2.png';
 
 function Sponsors(){
     return(

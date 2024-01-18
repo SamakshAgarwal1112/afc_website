@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, AspectRatio } from '@chakra-ui/react';
 
-
 function Video(){
     return(
         <Box
@@ -17,7 +16,7 @@ function Video(){
             >
             <iframe
                 title='afc'
-                src='https://www.youtube.com/embed/QhBnZ6NPOY0'
+                src="https://www.youtube.com/embed/K3sCFgJAsDg"
                 allowFullScreen
             />
             </AspectRatio>
