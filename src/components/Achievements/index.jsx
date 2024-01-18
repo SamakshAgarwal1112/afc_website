@@ -35,6 +35,7 @@ function Achievement({image,description}){
                 w={"auto"} 
                 aspectRatio={16/9}
                 objectFit={"cover"}
+                alt='achievement_afc'
                 />
                 <Text
                 fontFamily={"Poppins"}

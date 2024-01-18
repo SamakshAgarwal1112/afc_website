@@ -14,7 +14,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='afc_web_app'>
       <Navbar />
       <div style={{overflowX:"hidden"}}>
       <Element name="home">

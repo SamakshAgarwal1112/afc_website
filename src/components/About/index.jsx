@@ -34,6 +34,7 @@ function About(){
                 </Text>
                 <Image
                 display={{base:"block",md:"none"}}
+                alt='about_afc'
                 src={about}
                 mx={"auto"}
                 w={{base:"100%",md:"50%"}}

@@ -56,6 +56,7 @@ function Navbar() {
             w={{ base: "2rem", sm: "3rem", md: '5rem' }}
             p={'0'}
             src={logo}
+            alt='afc_logo'
           />
         </ScrollLink>
         <Box

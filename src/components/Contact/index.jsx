@@ -53,6 +53,7 @@ function Contact(){
                 </Stack>
                 <Image 
                 src={instaQR}
+                alt='instagram_QR_afc'
                 w={"20%"}
                 />
                 <Stack

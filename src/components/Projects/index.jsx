@@ -42,6 +42,7 @@ function Project({direction,image,title,description}){
             w={{ base: "7rem", sm: "14rem", md: "18rem" , lg: '20rem' }}
             p={'0'}
             src={image}
+            alt='afc_project'
             />
             <Stack
             w={"80%"}
@@ -142,6 +143,7 @@ function Pojects(){
                 >
                     <Image
                     src={ongoingProject1}
+                    alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
                     w={"33%"}
                     objectFit={"cover"}
@@ -149,6 +151,7 @@ function Pojects(){
                     />
                     <Image
                     src={ongoingProject2}
+                    alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
                     w={"33%"}
                     objectFit={"cover"}
@@ -196,6 +199,7 @@ function Pojects(){
                 >
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject1}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -217,6 +221,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject2}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -238,6 +243,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject3}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -259,6 +265,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject4}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}

@@ -43,16 +43,16 @@ function Gallery(){
                     overflow={"hidden"}
                 >
                     <GridItem rowSpan={2} colSpan={1}>
-                    <Image src={Gallery1} onClick={() => handleOpenModal(Gallery1)} h={"100%"}/>
+                    <Image src={Gallery1} onClick={() => handleOpenModal(Gallery1)} h={"100%"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery2} onClick={() => handleOpenModal(Gallery2)} h={"100%"}/>
+                    <Image src={Gallery2} onClick={() => handleOpenModal(Gallery2)} h={"100%"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} objectFit={"cover"}/>
+                    <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} alt="afc_photo" objectFit={"cover"}/>
                     </GridItem>
                     <GridItem colSpan={2}>
-                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} />
+                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} alt="afc_photo" />
                     </GridItem>
                 </Grid>
 
