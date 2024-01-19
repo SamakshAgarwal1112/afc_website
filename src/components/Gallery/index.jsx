@@ -59,7 +59,7 @@ function Gallery(){
                 <Modal isOpen={isOpen} onClose={onClose} size="full">
                     <ModalOverlay />
                     <ModalContent bg="transparent" display="flex" alignItems="center" justifyContent="center">
-                    <ModalCloseButton mr={"2rem"}/>
+                    <ModalCloseButton mr={"2rem"} color={"#fcf9f9"} fontSize={"1rem"} border={"2px solid #fcf9f9"} p={"1rem"}/>
                     <Image src={modalImage} maxH="80vh" maxW="80vw" />
                     </ModalContent>
                 </Modal>

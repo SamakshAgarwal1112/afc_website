@@ -18,7 +18,7 @@ function Home(){
         >
             <Flex
             direction="column"
-            w={{base:"80%",sm:"50%",md:"25rem",lg:"30rem",xl:"35rem",'2xl':"35vw"}}
+            w={{base:"86%",sm:"50%",md:"25rem",lg:"30rem",xl:"35rem",'2xl':"35vw"}}
             textAlign={"left"}
             lineHeight={1}
             gap={"1rem"}
@@ -28,7 +28,7 @@ function Home(){
             >
                 <Text 
                 fontFamily={"Milker"}
-                fontSize={{base:"10vw",sm:"6.5vw",md:"3.25rem",lg:"3.75rem",xl:"4.5rem",'2xl':"4.6vw"}}
+                fontSize={{base:"10.8vw",sm:"6.5vw",md:"3.25rem",lg:"3.75rem",xl:"4.5rem",'2xl':"4.6vw"}}
                 fontWeight={400}
                 color={"#fcf9f9"}
                 textShadow={{base:"-2px 2px 0px rgba(0, 0, 0, 0.5)",sm:"0"}}
@@ -37,7 +37,7 @@ function Home(){
                 </Text>
                 <Text 
                 fontFamily={"Milker"}
-                fontSize={{base:"4.2vw",sm:"3vw",md:"1.25rem",lg:"1.5rem",'2xl':"1.6vw"}}
+                fontSize={{base:"4.8vw",sm:"3vw",md:"1.25rem",lg:"1.5rem",'2xl':"1.6vw"}}
                 fontWeight={400}
                 color={"#27AAE1"}
                 textShadow={{base:"-2px 2px 0px rgba(0, 0, 0, 0.5)",sm:"0"}}
