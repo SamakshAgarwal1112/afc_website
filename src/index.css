@@ -1,8 +1,18 @@
 :root,html,body {
-    background-color: #fff !important;
-    color: #3E4047 !important;
+    background-color: #fff;
+    color: #3E4047;
 }
 
 a {
-    color: #3E4047 !important;
+    color: #3E4047;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Semibold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Milker';
+    src: url('/fonts/milker.otf') format('truetype');
+  }

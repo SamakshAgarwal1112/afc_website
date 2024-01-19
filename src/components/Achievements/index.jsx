@@ -1,8 +1,8 @@
 import React from 'react'
-import { Flex, Text, Box, Stack, Image, AspectRatio } from '@chakra-ui/react';
-import achievement1 from './../../assets/Achievement1.png';
-import achievement2 from './../../assets/Achievement2.png';
-import achievement3 from './../../assets/Achievement3.png';
+import { Flex, Text, Stack, Image } from '@chakra-ui/react';
+import achievement1 from '/assets/Achievement1.jpg';
+import achievement2 from '/assets/Achievement2.jpg';
+import achievement3 from '/assets/Achievement3.jpg';
 
 const achievement = [
     {

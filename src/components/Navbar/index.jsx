@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex, Text, Box, Image, Menu, MenuButton, MenuList, MenuItem, IconButton } from '@chakra-ui/react';
 import { Link as ScrollLink } from 'react-scroll';
-import logo from './../../assets/logo.png';
+import logo from '/assets/logo.png';
 import { HamburgerIcon } from '@chakra-ui/icons';
 
 const links = [

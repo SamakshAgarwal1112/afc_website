@@ -1,8 +1,8 @@
 import React from 'react'
 import { Flex, Text, Box } from '@chakra-ui/react';
-import faculty from './../../assets/Faculty.png';
-import coordinator from './../../assets/Coordinator.png';
-import co_coordinator from './../../assets/Co-coordinator.jpg';
+import faculty from '/assets/Faculty.jpg';
+import coordinator from '/assets/Coordinator.jpg';
+import co_coordinator from '/assets/Co-coordinator.jpg';
 
 function Team(){
     return(

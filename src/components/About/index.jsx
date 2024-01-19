@@ -1,13 +1,13 @@
 import React from 'react'
 import { Flex, Text, Box, Image } from '@chakra-ui/react';
-import about from "./../../assets/about.png";
+import about from "/assets/about.jpg";
 
 function About(){
     return(
         <Box
         id='about'
         bg={"rgb(4 4 13)"}
-        pt={{base:"52.5vw",md:"62.5vw"}}
+        pt={{base:"35rem",xs:"50rem",sm:"100vw",lg:"60vw"}}
         pb={{base:"4rem",md:"8rem"}}
         >
             <Flex
