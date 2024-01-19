@@ -1,10 +1,6 @@
-:root,html,body {
-    background-color: #fff;
-    color: #3E4047;
-}
-
-a {
-    color: #3E4047;
+#root,html,body {
+    background-color: rgb(4 4 13);
+    color: #fcf9f9;
 }
 
 @font-face {

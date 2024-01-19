@@ -30,7 +30,7 @@ function Gallery(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Gallery
                 </Text>
@@ -52,7 +52,7 @@ function Gallery(){
                     <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} alt="afc_photo" objectFit={"cover"}/>
                     </GridItem>
                     <GridItem colSpan={2}>
-                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} alt="afc_photo" />
+                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} alt="afc_photo" w={"100%"}/>
                     </GridItem>
                 </Grid>
 
