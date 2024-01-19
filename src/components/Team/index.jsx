@@ -18,7 +18,7 @@ function Team(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
             >
                 Team
             </Text>
@@ -30,6 +30,41 @@ function Team(){
             wrap={"wrap"}
             gap={{base:"5rem",md:"0rem"}}
             >
+                <Box
+                display={{base:"block",md:"none"}}
+                w={{base:"14rem",lg:"16rem",xl:"18rem"}}
+                h={{base:"20rem",lg:"24rem"}}
+                bgPos="center"
+                bgRepeat="no-repeat"
+                bgSize="cover"
+                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(${faculty})`}
+                >
+                    <Text
+                    textTransform={"uppercase"}
+                    fontSize={{base:"1.5rem",md:"2rem"}}
+                    fontFamily={"Poppins"}
+                    fontWeight={400}
+                    w={{base:"12rem",md:"14rem"}}
+                    textAlign={"left"}
+                    lineHeight={1}
+                    mt={{base:"16.5rem",md:"15.5rem",lg:"19.5rem"}}
+                    ml={"0.5rem"}
+                    color={"#fcf9f9"}
+                    >
+                        Vijay Kumar Gupta
+                    </Text>
+                    <Text
+                    pos={"absolute"}
+                    textAlign={"left"}
+                    fontSize={{base:"1.25rem",md:"1.75rem"}}
+                    fontWeight={600}
+                    pt={"0.5rem"}
+                    pl={"0.5rem"}
+                    color={"#fcf9f9"}
+                    >
+                        Faculty Incharge
+                    </Text>
+                </Box>
                 <Box
                 w={{base:"14rem",lg:"16rem",xl:"18rem"}}
                 h={{base:"20rem",lg:"24rem"}}
@@ -49,7 +84,7 @@ function Team(){
                     lineHeight={1}
                     mt={{base:"16.5rem",md:"15.5rem",lg:"19.5rem"}}
                     ml={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Rudresh Singh
                     </Text>
@@ -60,12 +95,13 @@ function Team(){
                     fontWeight={600}
                     pt={"0.5rem"}
                     pl={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Coordinator
                     </Text>
                 </Box>
                 <Box
+                display={{base:"none",md:"block"}}
                 w={{base:"14rem",lg:"16rem",xl:"18rem"}}
                 h={{base:"20rem",lg:"24rem"}}
                 bgPos="center"
@@ -83,7 +119,7 @@ function Team(){
                     lineHeight={1}
                     mt={{base:"16.5rem",md:"15.5rem",lg:"19.5rem"}}
                     ml={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Vijay Kumar Gupta
                     </Text>
@@ -94,7 +130,7 @@ function Team(){
                     fontWeight={600}
                     pt={"0.5rem"}
                     pl={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Faculty Incharge
                     </Text>
@@ -118,7 +154,7 @@ function Team(){
                     lineHeight={1}
                     mt={{base:"18rem",md:"17.5rem",lg:"21.5rem"}}
                     ml={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Sankalp
                     </Text>
@@ -129,7 +165,7 @@ function Team(){
                     fontWeight={600}
                     pt={"0.5rem"}
                     pl={"0.5rem"}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                     >
                         Co-Coordinator
                     </Text>
@@ -145,7 +181,7 @@ function Team(){
             fontFamily={"Poppins"}
             fontSize={{base:"2.5vw",sm:"0.75rem",md:"1.25rem",lg:"1.5rem"}}
             fontWeight={400}
-            color={"#fff"}
+            color={"#fcf9f9"}
             >
             <Text
                 w={"20%"}

@@ -6,9 +6,11 @@ function About(){
     return(
         <Box
         id='about'
-        bg={"rgb(4 4 13)"}
-        pt={{base:"35rem",xs:"50rem",sm:"100vw",lg:"60vw"}}
+        bg={"transparent"}
+        mt={{base:"35rem",xs:"44rem",sm:"75vw",lg:"70vw"}}
         pb={{base:"4rem",md:"8rem"}}
+        pos={"relative"}
+        zIndex={2}
         >
             <Flex
             justify={"space-between"}
@@ -23,26 +25,28 @@ function About(){
             mx={"auto"}
             gap={"1rem"}
             textAlign={{base:"center",md:"left"}}
+            bg={"transparent"}
             >
                 <Text
                 fontFamily={"Milker"}
-                fontSize={{base:"9vw",md:"4.5rem"}}
+                fontSize={{base:"9vw",md:"4.5rem",'2xl':"7.2vw"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     About
                 </Text>
                 <Image
                 display={{base:"block",md:"none"}}
+                alt='about_afc'
                 src={about}
                 mx={"auto"}
                 w={{base:"100%",md:"50%"}}
                 />
                 <Text
                 fontFamily={"Poppins"}
-                fontSize={{base:"3vw",md:"1rem",lg:"1.5rem"}}
+                fontSize={{base:"3vw",md:"1rem",lg:"1.5rem",'2xl':"2vw"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                 The Aero Fabrication Club. As the name itself suggests the clubs invokes learning in students by incorporating two major topics which form the building blocks of all the engineering sciences. Here at AFC we believe in "Creating to Learn, Learning to Create" and try to build out of the very basic laws provided by the nature. Constituting of a huge participation from all the years of the UG program we are an ever growing and an ever learning family.
                 </Text>

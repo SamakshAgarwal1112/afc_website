@@ -18,16 +18,18 @@ const links = [
 function NavbarLink({ to, text }) {
   return (
     <ScrollLink to={to} smooth={true} duration={1000}>
-      <Text cursor={"pointer"}>{text}</Text>
+      <Text color={"#fcf9f9"} cursor={"pointer"}>{text}</Text>
     </ScrollLink>
   );
 }
 
 function NavbarMenuItem({ to, text }) {
   return (
-    <MenuItem>
+    <MenuItem
+    bg={"#131313"}
+    >
       <ScrollLink to={to} smooth={true} duration={1000}>
-        <Text color="#3E4047" cursor={"pointer"}>{text}</Text>
+        <Text color="#fcf9f9" cursor={"pointer"}>{text}</Text>
       </ScrollLink>
     </MenuItem>
   );
@@ -56,10 +58,11 @@ function Navbar() {
             w={{ base: "2rem", sm: "3rem", md: '5rem' }}
             p={'0'}
             src={logo}
+            alt='afc_logo'
           />
         </ScrollLink>
         <Box
-          fontSize={{ base: "0.75rem", md: "1rem", lg: "1.2rem" }}
+          fontSize={{ base: "0.75rem", md: "1rem", lg: "1.2rem",'2xl':"1.25vw" }}
           fontWeight={600}
         >
           <Flex display={{ base: "none", md: "flex" }}
@@ -77,11 +80,13 @@ function Navbar() {
                 aria-label='Options'
                 icon={<HamburgerIcon />}
                 variant='outline'
-                colorScheme='whiteAlpha'
                 size='sm'
+                color={"#fcf9f9"}
                 mt={{base:"0rem",sm:"0.5rem"}}
               />
-              <MenuList>
+              <MenuList
+              bg={"#131313"}
+              >
                 {links.map(link => <NavbarMenuItem key={link.to} {...link} />)}
               </MenuList>
             </Menu>

@@ -16,7 +16,7 @@ function Video(){
             >
             <iframe
                 title='afc'
-                src="https://www.youtube.com/embed/K3sCFgJAsDg"
+                src="https://www.youtube.com/embed/K3sCFgJAsDg?rel=0"
                 allowFullScreen
             />
             </AspectRatio>

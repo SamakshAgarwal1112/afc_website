@@ -25,7 +25,7 @@ function Achievement({image,description}){
             w={{base:"75%",md:"32%"}}
             align={"center"} 
             p={{base:"0.25rem",md:"0.75rem"}}
-            border={"4px solid #FBF4EF"} 
+            border={"4px solid #FFF5EE"}
             aspectRatio={7/8} 
             bg={"#080C1E"} 
             boxShadow={"-18px 4px 8px 0px rgba(0, 0, 0, 0.25)"}
@@ -35,12 +35,13 @@ function Achievement({image,description}){
                 w={"auto"} 
                 aspectRatio={16/9}
                 objectFit={"cover"}
+                alt='achievement_afc'
                 />
                 <Text
                 fontFamily={"Poppins"}
                 fontSize={{base:"0.75rem",xs:"1.25rem",sm:"1.75rem",md:"1rem",xl:"1.25rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     {description}
                 </Text>
@@ -61,7 +62,7 @@ function Achievements(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
             >
                 Achievements
             </Text>

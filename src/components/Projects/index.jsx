@@ -39,9 +39,10 @@ function Project({direction,image,title,description}){
         >
           <Image
             aspectRatio={'1/1'}
-            w={{ base: "7rem", sm: "14rem", md: "18rem" , lg: '20rem' }}
+            w={{ base: "7rem", sm: "14rem", md: "18rem" , lg: '20rem' , '2xl': '24vw'}}
             p={'0'}
             src={image}
+            alt='afc_project'
             />
             <Stack
             w={"80%"}
@@ -51,10 +52,10 @@ function Project({direction,image,title,description}){
             w={"100%"}
             textAlign={"left"}
             fontFamily={"Poppins"}
-            fontSize={{base:"2.5vw",md:"1.25rem",lg:"1.75rem",xl:"2rem"}}
+            fontSize={{base:"2.5vw",md:"1.25rem",lg:"1.75rem",xl:"2rem",'2xl':"2vw"}}
             fontWeight={600}
             lineHeight={"1"}
-            color={"#3E4047"}
+            color={"#fcf9f9"}
             >
                 {title}
             </Text>
@@ -62,9 +63,9 @@ function Project({direction,image,title,description}){
             w={"100%"}
             textAlign={"left"}
             fontFamily={"Poppins"}
-            fontSize={{base:"1.5vw",md:"1rem",lg:"1.2rem"}}
+            fontSize={{base:"1.5vw",md:"1rem",lg:"1.2rem",'2xl':"1.25vw"}}
             fontWeight={400}
-            color={"#fff"}
+            color={"#fcf9f9"}
             >
                 {description}
             </Text>
@@ -90,7 +91,7 @@ function Pojects(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                 Projects
                 </Text>
@@ -98,7 +99,7 @@ function Pojects(){
                 fontFamily={"Milker"}
                 fontSize={{base:"5vw",md:"2.75rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Completed Projects
                 </Text>
@@ -130,38 +131,64 @@ function Pojects(){
                 fontFamily={"Milker"}
                 fontSize={{base:"5vw",md:"2.75rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Ongoing Projects
                 </Text>
                 <Flex
-                w={{base:"100%",md:"95%",lg:"90%"}}
+                w={{base:"90%",md:"95%",lg:"90%"}}
                 justify={"space-between"}
-                align={"center"}
+                align={"flex-start"}
                 gap={{base:"1rem",md:"2rem"}}
                 >
+                    <Stack
+                    w={{base:"35%",md:'33%'}}
+                    >
                     <Image
                     src={ongoingProject1}
+                    alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
-                    w={"33%"}
                     objectFit={"cover"}
                     borderRadius={"0.5rem"}
                     />
+                    <Text
+                    textAlign={"left"}
+                    fontFamily={"Poppins"}
+                    fontSize={{base:"1.8vw",xs:"1.5vw",md:"1rem",lg:"1.2rem",'2xl':"1.25vw"}}
+                    fontWeight={400}
+                    color={"#fcf9f9"}
+                    >
+                        1. Flying wing configuration of RC Plane
+                    </Text>
+                    </Stack>
+                    <Stack
+                    w={{base:"35%",md:'33%'}}
+                    >
                     <Image
                     src={ongoingProject2}
+                    alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
-                    w={"33%"}
                     objectFit={"cover"}
                     borderRadius={"0.5rem"}
                     />
+                    <Text
+                    textAlign={"left"}
+                    fontFamily={"Poppins"}
+                    fontSize={{base:"1.8vw",xs:"1.5vw",md:"1rem",lg:"1.2rem",'2xl':"1.25vw"}}
+                    fontWeight={400}
+                    color={"#fcf9f9"}
+                    >
+                        2. Ornithopter
+                    </Text>
+                    </Stack>
                     <Flex
                     direction={"column"}
                     textAlign={"left"}
                     fontFamily={"Poppins"}
-                    fontSize={{base:"1.5vw",md:"1rem",lg:"1.2rem"}}
+                    fontSize={{base:"1.8vw",xs:"1.5vw",md:"1rem",lg:"1.2rem",'2xl':"1.25vw"}}
                     fontWeight={400}
-                    color={"#fff"}
-                    w={{md:"33%",lg:"28%"}}
+                    color={"#fcf9f9"}
+                    w={{base:"20%",md:"33%",lg:"28%"}}
                     gap={{base:"1rem",md:"2rem"}}
                     >
                         <Text>
@@ -172,16 +199,29 @@ function Pojects(){
                         </Text>
                     </Flex>
                 </Flex>
+                <Stack
+                gap={"0rem"}
+                lineHeight={1.1}
+                >
                 <Text
                 fontFamily={"Milker"}
                 fontSize={{base:"5vw",md:"2.75rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Future Ideas
                 </Text>
+                <Text
+                fontFamily={"Poppins"}
+                fontSize={{base:"0.3rem",xs:"0.5rem",sm:"0.75rem",md:"1rem"}}
+                fontWeight={400}
+                color={"#fcf9f9"}
+                >
+                    *Below images are only for reference*
+                </Text>
+                </Stack>
                 <Grid
-                    w={"100%"}
+                    w={"90%"}
                     aspectRatio={8/5}
                     templateRows='repeat(2, 1fr)'
                     templateColumns='repeat(2, 1fr)'
@@ -192,10 +232,11 @@ function Pojects(){
                     fontFamily={"Poppins"}
                     fontSize={{base:"1.6vw",md:"1rem",lg:"1.5rem"}}
                     fontWeight={400}
-                    color={"#fff"}
+                    color={"#fcf9f9"}
                 >
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject1}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -217,6 +258,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject2}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -238,6 +280,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject3}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}
@@ -259,6 +302,7 @@ function Pojects(){
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
                     <Image src={futureProject4}
+                    alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
                     objectFit={"cover"}

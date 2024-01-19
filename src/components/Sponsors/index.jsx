@@ -24,7 +24,7 @@ function Sponsors(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Sponsors
                 </Text>
@@ -38,6 +38,7 @@ function Sponsors(){
                 w={"auto"}
                 p={'0'}
                 src={sponsor1}
+                alt='solidworks_afc'
                 />
                 </Link>
                 <Link href='https://www.ansys.com/en-in' isExternal>
@@ -45,6 +46,7 @@ function Sponsors(){
                 w={"auto"}
                 p={'0'}
                 src={sponsor2}
+                alt='ansys_afc'
                 />
                 </Link>
                 </Flex>

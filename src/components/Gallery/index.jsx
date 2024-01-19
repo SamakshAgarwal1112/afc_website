@@ -30,7 +30,7 @@ function Gallery(){
                 fontFamily={"Milker"}
                 fontSize={{base:"9vw",md:"4.5rem"}}
                 fontWeight={400}
-                color={"#fff"}
+                color={"#fcf9f9"}
                 >
                     Gallery
                 </Text>
@@ -43,23 +43,23 @@ function Gallery(){
                     overflow={"hidden"}
                 >
                     <GridItem rowSpan={2} colSpan={1}>
-                    <Image src={Gallery1} onClick={() => handleOpenModal(Gallery1)} h={"100%"}/>
+                    <Image src={Gallery1} onClick={() => handleOpenModal(Gallery1)} h={"100%"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery2} onClick={() => handleOpenModal(Gallery2)} h={"100%"}/>
+                    <Image src={Gallery2} onClick={() => handleOpenModal(Gallery2)} h={"100%"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} objectFit={"cover"}/>
+                    <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} alt="afc_photo" objectFit={"cover"}/>
                     </GridItem>
                     <GridItem colSpan={2}>
-                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} />
+                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} alt="afc_photo" w={"100%"}/>
                     </GridItem>
                 </Grid>
 
                 <Modal isOpen={isOpen} onClose={onClose} size="full">
                     <ModalOverlay />
                     <ModalContent bg="transparent" display="flex" alignItems="center" justifyContent="center">
-                    <ModalCloseButton mr={"2rem"}/>
+                    <ModalCloseButton mr={"2rem"} color={"#fcf9f9"} fontSize={"1rem"} border={"2px solid #fcf9f9"} p={"1rem"}/>
                     <Image src={modalImage} maxH="80vh" maxW="80vw" />
                     </ModalContent>
                 </Modal>
