@@ -9,6 +9,7 @@ const links = [
   { to: 'projects', text: 'Projects' },
   { to: 'achievements', text: 'Achievements' },
   { to: 'team', text: 'Team' },
+  { to: 'forms', text: 'Forms' },
   { to: 'gallery', text: 'Gallery' },
   { to: 'sponsors', text: 'Sponsors' },
   { to: 'contact', text: 'Contact' },
@@ -61,7 +62,7 @@ function Navbar() {
           />
         </ScrollLink>
         <Box
-          fontSize={{ base: "0.75rem", md: "1rem", lg: "1.2rem",'2xl':"1.25vw" }}
+          fontSize={{ base: "0.75rem", md: "0.85rem", lg: "1rem",'2xl':"1.25vw" }}
           fontWeight={600}
         >
           <Flex display={{ base: "none", md: "flex" }}

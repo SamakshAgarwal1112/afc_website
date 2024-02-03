@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Video from './components/Video';
 import Achievements from './components/Achievements';
 import Team from './components/Team';
+import Forms from './components/Forms';
 import Gallery from './components/Gallery';
 import Sponsors from './components/Sponsors';
 import Contact from './components/Contact';
@@ -32,6 +33,9 @@ function App() {
       </Element>
       <Element name="team">
         <Team />
+      </Element>
+      <Element name="forms">
+        <Forms/>
       </Element>
       <Element name="gallery">
         <Gallery />
