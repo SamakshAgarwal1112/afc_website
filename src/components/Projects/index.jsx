@@ -1,28 +1,19 @@
 import React from 'react'
 import { Flex, Text, Box, Stack,Image, Grid, GridItem } from '@chakra-ui/react';
-import project1 from '/assets/Project1.jpg';
-import project2 from '/assets/Project2.jpg';
-import project3 from '/assets/Project3.jpg';
-import ongoingProject1 from '/assets/ongoingProject1.jpg';
-import ongoingProject2 from '/assets/ongoingProject2.jpg';
-import futureProject1 from '/assets/futureProject1.jpg';
-import futureProject2 from '/assets/futureProject2.jpg';
-import futureProject3 from '/assets/futureProject3.jpg';
-import futureProject4 from '/assets/futureProject4.jpg';
 
 const projects = [
     {
-        image:project1,
+        image:"https://res.cloudinary.com/dvjirkats/image/upload/v1706948085/afc_website/v0hrlpo9onyxlx239ccy.png",
         title:"1. Micro Class UAV",
         description:"The club designed, built and flew a 3D printed RC Plane. The Micro Class UAV made trades between two potentially conflicting requirements: carrying the highest payload fraction possible and pursuing the lowest empty weight possible."
     },
     {
-        image:project2,
+        image:"https://res.cloudinary.com/dvjirkats/image/upload/v1706948089/afc_website/hyoimqxmglmr1jiejlns.png",
         title:"2. Autonomous UAV with Hotspot Detection",
         description:"The Club designed , built and flew an Autonomous unmanned aerial vehicle that met many anticipated requirements and was capable of hotspot detection."
     },
     {
-        image:project3,
+        image:"https://res.cloudinary.com/dvjirkats/image/upload/v1706948090/afc_website/y1wbtchtmwp9hociu8ac.png",
         title:"3. Racing Drone",
         description:"The club designed, built and flew a high-speed, agile unmanned aerial vehicle designed specifically for competitive racing. Its sleek, aerodynamic frame is typically made from lightweight material i.e. carbon fiber to maximize speed and maneuverability while ensuring durability."
     },
@@ -145,7 +136,7 @@ function Pojects(){
                     w={{base:"35%",md:'33%'}}
                     >
                     <Image
-                    src={ongoingProject1}
+                    src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948086/afc_website/alcyjortbhawsmutgfvi.png"}
                     alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
                     objectFit={"cover"}
@@ -165,7 +156,7 @@ function Pojects(){
                     w={{base:"35%",md:'33%'}}
                     >
                     <Image
-                    src={ongoingProject2}
+                    src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948093/afc_website/o6yqbg6ecfnmu0mtu2e0.png"}
                     alt='ongoing_project_afc'
                     aspectRatio={'8/5'}
                     objectFit={"cover"}
@@ -235,7 +226,7 @@ function Pojects(){
                     color={"#fcf9f9"}
                 >
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
-                    <Image src={futureProject1}
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948077/afc_website/vttoug8fteiwnq1mj3rn.png"}
                     alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
@@ -257,7 +248,7 @@ function Pojects(){
                     </Text>
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
-                    <Image src={futureProject2}
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948077/afc_website/jenqizdasr6pf70m30bg.png"}
                     alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
@@ -279,7 +270,7 @@ function Pojects(){
                     </Text>
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
-                    <Image src={futureProject3}
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948077/afc_website/xxjnh4bu8xyscutjztug.png"}
                     alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}
@@ -301,7 +292,7 @@ function Pojects(){
                     </Text>
                     </GridItem>
                     <GridItem rowSpan={1} colSpan={1} pos={"relative"}>
-                    <Image src={futureProject4}
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948078/afc_website/lz5szf3z8k9qdvclqdaq.png"}
                     alt='future_project_afc'
                     w={"100%"}
                     h={"100%"}

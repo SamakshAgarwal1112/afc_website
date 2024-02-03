@@ -1,8 +1,5 @@
 import React from 'react'
 import { Flex, Text, Box } from '@chakra-ui/react';
-import faculty from '/assets/Faculty.jpg';
-import coordinator from '/assets/Coordinator.jpg';
-import co_coordinator from '/assets/Co-coordinator.jpg';
 
 function Team(){
     return(
@@ -37,7 +34,7 @@ function Team(){
                 bgPos="center"
                 bgRepeat="no-repeat"
                 bgSize="cover"
-                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(${faculty})`}
+                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(https://res.cloudinary.com/dvjirkats/image/upload/v1706948086/afc_website/mkttogakjwxuw7casp5d.png)`}
                 >
                     <Text
                     textTransform={"uppercase"}
@@ -71,7 +68,7 @@ function Team(){
                 bgPos="center"
                 bgRepeat="no-repeat"
                 bgSize="cover"
-                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(${coordinator})`}
+                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(https://res.cloudinary.com/dvjirkats/image/upload/v1706948092/afc_website/ha3wrhgnyjhbp4ancrat.png)`}
                 mt={{md:"5rem"}}
                 >
                     <Text
@@ -107,7 +104,7 @@ function Team(){
                 bgPos="center"
                 bgRepeat="no-repeat"
                 bgSize="cover"
-                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(${faculty})`}
+                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(https://res.cloudinary.com/dvjirkats/image/upload/v1706948086/afc_website/mkttogakjwxuw7casp5d.png)`}
                 >
                     <Text
                     textTransform={"uppercase"}
@@ -141,7 +138,7 @@ function Team(){
                 bgPos="center"
                 bgRepeat="no-repeat"
                 bgSize="cover"
-                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(${co_coordinator})`}
+                bgGradient={`linear(214deg, rgba(38, 173, 229, 0.46) 50%, rgba(31, 170, 245, 0.55) 75%, rgba(47, 69, 138, 0.55) 100%, rgba(2, 111, 219, 0.55) 100%),url(https://res.cloudinary.com/dvjirkats/image/upload/v1706948075/afc_website/woqskmypve293eirj9ip.jpg)`}
                 mt={{md:"5rem"}}
                 >
                     <Text

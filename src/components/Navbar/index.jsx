@@ -1,7 +1,6 @@
 import React from 'react';
 import { Flex, Text, Box, Image, Menu, MenuButton, MenuList, MenuItem, IconButton } from '@chakra-ui/react';
 import { Link as ScrollLink } from 'react-scroll';
-import logo from '/assets/logo.png';
 import { HamburgerIcon } from '@chakra-ui/icons';
 
 const links = [
@@ -57,7 +56,7 @@ function Navbar() {
             aspectRatio={'1/1'}
             w={{ base: "2rem", sm: "3rem", md: '5rem' }}
             p={'0'}
-            src={logo}
+            src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948231/afc_website/tllfw7doojaom5dxirga.png"}
             alt='afc_logo'
           />
         </ScrollLink>

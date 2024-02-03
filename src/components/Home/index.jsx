@@ -1,12 +1,11 @@
 import React from 'react';
 import { Flex, Text, Box } from '@chakra-ui/react';
-import  Landing  from '/assets/landing.jpg'
 
 function Home(){
     return(
         <Box
         id='home'
-        bgImage={`url(${Landing})`}
+        bgImage={`url(https://res.cloudinary.com/dvjirkats/image/upload/v1706948089/afc_website/ucd1i9kdzvwiebfrqh4p.png)`}
         bgPos={{base:"10% 0%",sm:"left"}}
         bgRepeat="no-repeat"
         bgSize={{base:"60rem",sm:"cover"}}

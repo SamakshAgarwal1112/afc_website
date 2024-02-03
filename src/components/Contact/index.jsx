@@ -1,6 +1,5 @@
 import React from 'react'
 import { Flex, Text, Box, Image, Stack, Link } from '@chakra-ui/react';
-import instaQR from '/assets/instaQR.jpg';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { EmailIcon } from '@chakra-ui/icons';
 
@@ -79,7 +78,7 @@ function Contact(){
                     </Flex>
                 </Stack>
                 <Image 
-                src={instaQR}
+                src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948083/afc_website/od5zvx7oeoib8ykehzzr.png"}
                 alt='instagram_QR_afc'
                 w={"20%"}
                 />

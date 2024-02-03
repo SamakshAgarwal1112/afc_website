@@ -1,6 +1,5 @@
 import React from 'react'
 import { Flex, Text, Box, Image } from '@chakra-ui/react';
-import about from "/assets/about.jpg";
 
 function About(){
     return(
@@ -10,7 +9,7 @@ function About(){
         mt={{base:"35rem",xs:"44rem",sm:"75vw",lg:"70vw"}}
         pb={{base:"4rem",md:"8rem"}}
         pos={"relative"}
-        zIndex={2}
+        zIndex={1}
         >
             <Flex
             justify={"space-between"}
@@ -38,7 +37,7 @@ function About(){
                 <Image
                 display={{base:"block",md:"none"}}
                 alt='about_afc'
-                src={about}
+                src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948106/afc_website/m9mhsvqfycwz2ztlkujl.png"}
                 mx={"auto"}
                 w={{base:"100%",md:"50%"}}
                 />
@@ -53,7 +52,7 @@ function About(){
             </Flex>
             <Image
             display={{base:"none",md:"block"}}
-            src={about}
+            src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948106/afc_website/m9mhsvqfycwz2ztlkujl.png"}
             w={{base:"90%",md:"50%"}}
             />
             </Flex>

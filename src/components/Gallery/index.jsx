@@ -1,9 +1,5 @@
 import React from "react";
 import { Flex, Text, Box, Image, Grid, GridItem,  Modal, ModalOverlay, ModalContent, useDisclosure, ModalCloseButton } from "@chakra-ui/react";
-import Gallery1 from "/assets/gallery1.jpg";
-import Gallery2 from "/assets/gallery2.jpg";
-import Gallery3 from "/assets/gallery3.jpg";
-import Gallery4 from "/assets/gallery4.jpg";
 
 function Gallery(){
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -43,16 +39,16 @@ function Gallery(){
                     overflow={"hidden"}
                 >
                     <GridItem rowSpan={2} colSpan={1}>
-                    <Image src={Gallery1} onClick={() => handleOpenModal(Gallery1)} h={"100%"} alt="afc_photo"/>
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948093/afc_website/hlpwjkhmjagwk0hn6vue.png"} onClick={() => handleOpenModal("https://res.cloudinary.com/dvjirkats/image/upload/v1706948093/afc_website/hlpwjkhmjagwk0hn6vue.png")} h={"100%"} w={"100%"} objectFit={"cover"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery2} onClick={() => handleOpenModal(Gallery2)} h={"100%"} alt="afc_photo"/>
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948082/afc_website/k7sl827xsdset79wch7i.png"} onClick={() => handleOpenModal("https://res.cloudinary.com/dvjirkats/image/upload/v1706948082/afc_website/k7sl827xsdset79wch7i.png")} h={"100%"} alt="afc_photo"/>
                     </GridItem>
                     <GridItem colSpan={1}>
-                    <Image src={Gallery3} onClick={() => handleOpenModal(Gallery3)} h={"100%"} alt="afc_photo" objectFit={"cover"}/>
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948082/afc_website/ilxu8rdl3pqeuojqrp78.png"} onClick={() => handleOpenModal("https://res.cloudinary.com/dvjirkats/image/upload/v1706948082/afc_website/ilxu8rdl3pqeuojqrp78.png")} h={"100%"} alt="afc_photo" objectFit={"cover"}/>
                     </GridItem>
                     <GridItem colSpan={2}>
-                    <Image src={Gallery4} onClick={() => handleOpenModal(Gallery4)} h={"100%"} alt="afc_photo" w={"100%"}/>
+                    <Image src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948079/afc_website/jxliisojokzmftquiw98.jpg"} onClick={() => handleOpenModal("https://res.cloudinary.com/dvjirkats/image/upload/v1706948079/afc_website/jxliisojokzmftquiw98.jpg")} h={"100%"} alt="afc_photo" w={"100%"}/>
                     </GridItem>
                 </Grid>
 

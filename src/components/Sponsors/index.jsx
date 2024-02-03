@@ -1,7 +1,5 @@
 import React from 'react'
 import { Flex, Text, Box, Image, Link } from '@chakra-ui/react';
-import sponsor1 from '/assets/Sponsor1.png';
-import sponsor2 from '/assets/Sponsor2.png';
 
 function Sponsors(){
     return(
@@ -37,7 +35,7 @@ function Sponsors(){
                 <Image
                 w={"auto"}
                 p={'0'}
-                src={sponsor1}
+                src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948090/afc_website/wlptf7m7ms5ljbcve74b.png"}
                 alt='solidworks_afc'
                 />
                 </Link>
@@ -45,7 +43,7 @@ function Sponsors(){
                 <Image
                 w={"auto"}
                 p={'0'}
-                src={sponsor2}
+                src={"https://res.cloudinary.com/dvjirkats/image/upload/v1706948090/afc_website/inorefh8v5dsu7zejoze.png"}
                 alt='ansys_afc'
                 />
                 </Link>
